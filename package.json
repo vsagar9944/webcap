@@ -1,0 +1,35 @@
+{
+  "name": "webcap",
+  "version": "1.0.0",
+  "description": "This is a simple nodejs and phantomjs application provide feature to take screen shot of your webpage",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vsagar9944/webcap.git"
+  },
+  "dependencies": {
+    "body-parser": "^1.13.2",
+    "cross-spawn": "^1.0.4",
+    "electron-prebuilt": "^1.4.13",
+    "express": "^4.13.1",
+    "graceful-fs": "^4.1.2",
+    "http-proxy": "^1.11.1",
+    "mocha-phantomjs": "^3.6.0",
+    "node-server-screenshot": "0.0.2",
+    "phantomjs": "^2.1.1",
+    "tmp": "^0.0.26"
+  },
+  "keywords": [
+    "screenshot",
+    "screencapture"
+  ],
+  "author": "vidya sagar mishra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vsagar9944/webcap/issues"
+  },
+  "homepage": "https://github.com/vsagar9944/webcap#readme"
+}
